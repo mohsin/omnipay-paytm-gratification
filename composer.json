@@ -1,0 +1,31 @@
+{
+    "name": "mohsin/omnipay-paytm-gratification",
+    "description": "Paytm Gratification Service driver for the Omnipay PHP payment processing library",
+    "keywords": [
+        "paytm",
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "homepage": "https://github.com/SaifurRahmanMohsin/omnipay-paytm-gratification",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saifur Rahman Mohsin",
+            "email": "mohsin92@me.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\PaytmGratification\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.0",
+        "phpseclib/phpseclib": "^2.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    }
+}
