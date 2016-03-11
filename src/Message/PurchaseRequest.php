@@ -62,7 +62,7 @@ class PurchaseRequest extends AbstractRequest
             curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
             curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
             curl_setopt($ch, CURLOPT_HTTPHEADER, $this->getApiHeader());
-            $output = curl_exec ($ch); // execute
+            $output = curl_exec($ch); // execute
             $info = curl_getinfo($ch);
             return new PurchaseResponse($this, json_decode($output, true)); //$response->json()
         } catch (BadResponseException $e) {

@@ -48,10 +48,10 @@ trait PaytmHelpers
     public function getChecksumFromString($str, $key)
     {
         $salt = $this->generateRandomSalt(4);
-      	$finalString = $str . "|" . $salt;
-      	$hash = $this->hashString($finalString);
-      	$hashString = $hash . $salt;
-      	return $this->encryptString($hashString, $key);
+        $finalString = $str . "|" . $salt;
+        $hash = $this->hashString($finalString);
+        $hashString = $hash . $salt;
+        return $this->encryptString($hashString, $key);
     }
 
     /**

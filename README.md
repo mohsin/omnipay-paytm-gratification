@@ -3,6 +3,9 @@
 **Paytm Gratification Service driver for the Omnipay PHP payment processing library**
 
 [![Build Status](https://travis-ci.org/SaifurRahmanMohsin/omnipay-paytm-gratification.svg?branch=master)](https://travis-ci.org/SaifurRahmanMohsin/omnipay-paytm-gratification)
+[![Latest Stable Version](https://poser.pugx.org/mohsin/omnipay-paytm-gratification/v/stable)](https://packagist.org/packages/mohsin/omnipay-paytm-gratification)
+[![Total Downloads](https://poser.pugx.org/mohsin/omnipay-paytm-gratification/downloads)](https://packagist.org/packages/mohsin/omnipay-paytm-gratification)
+
 
 [Omnipay](https://github.com/thephpleague/omnipay) is a framework agnostic, multi-gateway payment
 processing library for PHP 5.3+. This package implements Paytm support for Omnipay.
