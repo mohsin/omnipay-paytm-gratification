@@ -34,7 +34,7 @@ class Gateway extends AbstractGateway
         return [
             'request'           => json_encode($defaultPostData),
             'metadata'          => 'Testing Data',
-            'ipAddress'         => isset($_SERVER['SERVER_ADDR']) ? $_SERVER['SERVER_ADDR'] : gethostbyname(gethostname()),
+            'ipAddress'         => '127.0.0.1',
             'operationType'     => 'SALES_TO_USER_CREDIT',
             'platformName'      => 'PayTM'
         ];
